@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0px;
+    font-family: Roboto, sans-serif;
+}
+
+.header-box {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #F9FAF8;  
+}
+
+.hero-box {
+    display: flex;
+}
+
+img.header-image {
+    width: 300px;
+}
+
+
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+  }
+
+a {
+    color: #E5e7eb;
+    text-decoration: none;
+}
